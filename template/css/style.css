@@ -1,0 +1,49 @@
+div .navbar-nav
+ { float: right;  color: #5a2f2f;  }
+
+ul li a .navbar-nav .bd-navbar-nav .flex-row { color: #5a2f2f; }
+.navbar-nav-scroll .navbar-dark .navbar-nav .nav-link {color: #2e5858;}
+.navbar-dark .navbar-nav .nav-link .active {color: #2e5858;}
+
+div .main-title-menu {--font-family-sans-serif: }
+
+
+
+
+body {margin: 0; padding: 0; font-family: 'RobotoRegular', Helvetica, Arial, sans-serif; }
+@font-face {
+    font-family: "Lato-Black";
+    url("/font/Lato-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Blackitalic";
+    url("/font/Lato-Blackitalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Bold";
+url("/font/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Bolditalic";
+url("/font/Lato-Bolditalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Heavy";
+url("/font/Lato-Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Heavyitalic";
+url("/font/Lato-Heavyitalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}

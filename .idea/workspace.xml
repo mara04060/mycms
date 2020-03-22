@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f464a6c-1f09-4975-a7f4-dcde7e27e490" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZIhAO6roy7pedPAI4tXV7J2bdY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Controllers" />
+      <recent name="$PROJECT_DIR$/Services" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/font" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f464a6c-1f09-4975-a7f4-dcde7e27e490" name="Default Changelist" comment="" />
+      <created>1584532371126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584532371126</updated>
+      <workItem from="1584532372612" duration="1464000" />
+      <workItem from="1584551051938" duration="3920000" />
+      <workItem from="1584604043238" duration="1784000" />
+      <workItem from="1584605959835" duration="1569000" />
+      <workItem from="1584615706692" duration="42863000" />
+      <workItem from="1584696454049" duration="6197000" />
+      <workItem from="1584714053551" duration="4219000" />
+      <workItem from="1584721428796" duration="8918000" />
+      <workItem from="1584792663576" duration="21021000" />
+      <workItem from="1584860026878" duration="5322000" />
+      <workItem from="1584865925940" duration="21130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="208" width="526" height="480" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584887346661">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="533" y="208" width="526" height="480" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1584887346661" />
+    <state x="583" y="208" width="426" height="480" key="FileChooserDialogImpl" timestamp="1584552223058">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="583" y="208" width="426" height="480" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1584552223058" />
+    <state x="604" y="269" width="384" height="358" key="NewPhpClassDialog" timestamp="1584874485722">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="604" y="269" width="384" height="358" key="NewPhpClassDialog/0.0.1600.900@0.0.1600.900" timestamp="1584874485722" />
+    <state x="617" y="377" width="358" height="143" key="NewPhpFileDialog" timestamp="1584886890818">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="617" y="377" width="358" height="143" key="NewPhpFileDialog/0.0.1600.900@0.0.1600.900" timestamp="1584886890818" />
+    <state x="469" y="194" width="661" height="512" key="find.popup" timestamp="1584863663940">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="469" y="194" width="661" height="512" key="find.popup/0.0.1600.900@0.0.1600.900" timestamp="1584863663940" />
+    <state x="463" y="203" key="run.anything.popup" timestamp="1584871580047">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="203" key="run.anything.popup/0.0.1600.900@0.0.1600.900" timestamp="1584871580047" />
+  </component>
+</project>
