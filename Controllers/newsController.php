@@ -8,8 +8,14 @@ use Models\News;
 class newsController
 {
     use PaginationTrait;
+
     /** @var Template */
     private $view;
+
+    /**
+     * @var string
+     */
+    private $model;
 
     /**
      * newsController constructor.
@@ -17,6 +23,7 @@ class newsController
     public function __construct()
     {
         $this->view = new Template(__DIR__.'/../View/');
+        $this->model = News::class;
     }
 
     /**
@@ -24,7 +31,7 @@ class newsController
      */
     public function news(int $page=1)
     {
-        return $this->pagesInSite(News::class, 'newsTemplate.php', 'news', $page);
+        return $this->pagesInSite($this->model, 'newsTemplate.php', 'news', $page);
     }
 
 
@@ -35,7 +42,7 @@ class newsController
     public function onePage(int $id)
     {
         $start = 0;
-        $news = News::getById($id);
+        $news = $this->model::getById($id);
         if(!empty($news))
         {
             $path = 'onenewsTemplate.php';
@@ -52,7 +59,7 @@ class newsController
      */
     public function delete(int $id)
     {
-        $news = News::delete($id);
+        $news = $this->model::delete($id);
         if($news)
         {
             echo $id;

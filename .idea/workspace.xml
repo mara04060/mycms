@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f464a6c-1f09-4975-a7f4-dcde7e27e490" name="Default Changelist" comment="" />
+    <list default="true" id="0f464a6c-1f09-4975-a7f4-dcde7e27e490" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PageAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PageAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/authorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/authorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/newsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/newsController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZIhAO6roy7pedPAI4tXV7J2bdY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -75,7 +87,7 @@
       <workItem from="1584721428796" duration="8918000" />
       <workItem from="1584792663576" duration="21021000" />
       <workItem from="1584860026878" duration="5322000" />
-      <workItem from="1584865925940" duration="21130000" />
+      <workItem from="1584865925940" duration="24141000" />
     </task>
     <servers />
   </component>
