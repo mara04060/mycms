@@ -10,7 +10,22 @@ $small_menu = "<li><a href=\"/\">Главная страница</a></li>
 $title = "Новости из Блога";
 $blog_title = "Новости из Блога";
 $blog_description = "Новости из Блога";
-$javascript = '';
+$javascript = '<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+
+
+    $(".button").click(function(){
+        var id = $(this).attr(\'data-id\');
+        $.post("/news/delete/"+id+"/",
+            { id },
+            function(data, status){
+                alert("Удалена запись \nStatus: " + status);
+            });
+
+    });
+
+
+</script>';
 
 include_once ('indexTemplate.php');
 ?>
