@@ -1,41 +1,37 @@
 <?php
+$menu = "<a href=\"/\" class=\"blog-nav-item\">Главная страница</a>
+            <a href=\"/news/\" class=\"blog-nav-item\">News</a>
+            <a href=\"/author/\" class=\"blog-nav-item active\">Author</a>";
+
+$small_menu = "<li><a href=\"/\">Главная страница</a></li>
+                    <li><a href=\"/author/\">Author</a></li>
+                    <li><a href=\"/news/\">News</a></li>";
+
+$title = "Блог перечень Авторов.";
+$blog_title = "Блог перечень Авторов.";
+$blog_description = "Перечень авторов в блоге";
+$javascript = '';
+
+include_once ('indexTemplate.php');
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Authors</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <div class="row">
 
-<table class="layout">
-    <tr>
-        <td colspan="2" class="header">
-            Authors:
-        </td>
-    </tr>
-    <tr>
-        <td>
+        <div class="col-sm-8 blog-main">
             <?php foreach ($data as $item): ?>
-                <br />
-                <?php print($item->getName()); ?>
+                <div class="blog-post">
 
+                    <h2 class="blog-post-title"><?php print($item->getName()); ?></h2>
+
+                </div><!-- /.blog-post -->
             <?php endforeach; ?>
 
-        </td>
 
-        <td width="300px" class="sidebar">
-            <div class="sidebarHeader">Меню</div>
-            <ul>
-                <li><a href="/">Главная страница</a></li>
-                <li><a href="/author/">Author</a></li>
-                <li><a href="/news/">News</a></li>
-            </ul>
-        </td>
-    </tr>
-
-</table>
-<?php echo $pagination; ?>
-</body>
-</html>
+            <nav>
+                <ul class="pager">
+                    <?php echo $pagination; ?>
+                </ul>
+            </nav>
+        </div><!-- /.blog-main -->
+<?php
+include_once ('footerTemplate.php');
+?>

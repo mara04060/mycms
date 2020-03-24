@@ -1,63 +1,44 @@
 <?php
+$menu = "<a href=\"/\" class=\"blog-nav-item\">Главная страница</a>
+            <a href=\"/news/\" class=\"blog-nav-item active\">News</a>
+            <a href=\"/author/\" class=\"blog-nav-item\">Author</a>";
 
+$small_menu = "<li><a href=\"/\">Главная страница</a></li>
+                    <li><a class=\"active\" href=\"/author/\">Author</a></li>
+                    <li><a href=\"/news/\">News</a></li>";
+
+$title = "Новости из Блога";
+$blog_title = "Новости из Блога";
+$blog_description = "Новости из Блога";
+$javascript = '';
+
+include_once ('indexTemplate.php');
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>News</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
 
-<table class="layout">
-    <tr>
-        <td colspan="2" class="header">
-            Hot News
-        </td>
-    </tr>
-    <tr>
-        <td>
+
+        <div class="col-sm-8 blog-main">
             <?php foreach ($data as $item): ?>
-           <br />
-                <?php print($item->getName()); ?> <a href="#" class="button" data-id="<?=$item->getId() ?>"> Del </a>
-            <p>
-                <?php print ($item->getText()); ?>
+            <div class="blog-post">
+
+                <h2 class="blog-post-title"><?php print($item->getName()); ?></h2>
+                <p class="blog-post-meta"><?php print($data[0]->getDate()); ?> by <a href="#" class="button" data-id="<?=$item->getId() ?>"> Del </a></p>
+
+
+                <p></p><?php print ($item->getText()); ?></p>
                 <br /><?php print($item->getAuthor()); ?>
-                <br /><a href="/news/<?=$item->getId() ?>/" >Next</a>
-            </p>
+                <br /><a href="/news/<?=$item->getId() ?>/" >Подробнее ...</a>
 
-            <?php endforeach; ?>
-
-        </td>
-
-        <td width="300px" class="sidebar">
-            <div class="sidebarHeader">Меню</div>
-            <ul>
-                <li><a href="/">Главная страница</a></li>
-                <li><a href="/author/">Author</a></li>
-                <li><a href="/news/">News</a></li>
-            </ul>
-        </td>
-    </tr>
-
-</table>
-<?php echo $pagination; ?>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script>
+            </div><!-- /.blog-post -->
+        <?php endforeach; ?>
 
 
-    $(".button").click(function(){
-        var id = $(this).attr('data-id');
-        $.post("/news/delete/"+id+"/",
-            { id },
-            function(data, status){
-                alert("Удалена запись: " + data + "\nStatus: " + status);
-            });
+            <nav>
+                <ul class="pager">
+                    <?php echo $pagination; ?>
+                </ul>
+            </nav>
 
-    });
-
-
-</script>
-</body>
-</html>
+        </div><!-- /.blog-main -->
+<?php
+include_once ('footerTemplate.php');
+?>

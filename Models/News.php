@@ -46,6 +46,14 @@ class News
         return $this->text;
     }
 
+    /**
+     * @return string
+     */
+    public function getDate(): string
+    {
+        return $this->datetime;
+    }
+
 
     /**
      * @param string $name
