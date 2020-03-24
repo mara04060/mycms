@@ -1,0 +1,68 @@
+body {
+    background: white;
+    font-family: Lato-Bold, sans-serif;
+    font-size: 14px;
+    color: black;
+    min-width: 320px;
+}
+
+.menu-top .navbar {
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.mail {
+    text-transform: none;
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #44cdce;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: white;
+    color: #44cdce;
+}
+
+@font-face {
+    font-family: "Lato-Black";
+url("/font/Lato-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Blackitalic";
+url("/font/Lato-Blackitalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Bold";
+url("/font/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Bolditalic";
+url("/font/Lato-Bolditalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Heavy";
+url("/font/Lato-Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Heavyitalic";
+url("/font/Lato-Heavyitalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
